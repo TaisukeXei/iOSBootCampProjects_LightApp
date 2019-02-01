@@ -3,70 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5A28C4D21FE8C610051C030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A28C4C21FE8C610051C030 /* AppDelegate.swift */; };
-		B5A28C4F21FE8C610051C030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A28C4E21FE8C610051C030 /* ViewController.swift */; };
-		B5A28C5221FE8C610051C030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A28C5021FE8C610051C030 /* Main.storyboard */; };
-		B5A28C5521FE8C610051C030 /* Light.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5A28C5321FE8C610051C030 /* Light.xcdatamodeld */; };
-		B5A28C5721FE8C620051C030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A28C5621FE8C620051C030 /* Assets.xcassets */; };
-		B5A28C5A21FE8C620051C030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A28C5821FE8C620051C030 /* LaunchScreen.storyboard */; };
-		B5A28C6521FE8C620051C030 /* LightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A28C6421FE8C620051C030 /* LightTests.swift */; };
-		B5A28C7021FE8C620051C030 /* LightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A28C6F21FE8C620051C030 /* LightUITests.swift */; };
+		B5187F5D2204CEC7000096F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5187F5C2204CEC7000096F6 /* AppDelegate.swift */; };
+		B5187F5F2204CEC7000096F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5187F5E2204CEC7000096F6 /* ViewController.swift */; };
+		B5187F622204CEC7000096F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5187F602204CEC7000096F6 /* Main.storyboard */; };
+		B5187F652204CEC7000096F6 /* Light.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5187F632204CEC7000096F6 /* Light.xcdatamodeld */; };
+		B5187F672204CEC9000096F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5187F662204CEC9000096F6 /* Assets.xcassets */; };
+		B5187F6A2204CEC9000096F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5187F682204CEC9000096F6 /* LaunchScreen.storyboard */; };
+		B5187F752204CEC9000096F6 /* LightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5187F742204CEC9000096F6 /* LightTests.swift */; };
+		B5187F802204CEC9000096F6 /* LightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5187F7F2204CEC9000096F6 /* LightUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5A28C6121FE8C620051C030 /* PBXContainerItemProxy */ = {
+		B5187F712204CEC9000096F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5A28C4121FE8C610051C030 /* Project object */;
+			containerPortal = B5187F512204CEC7000096F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5A28C4821FE8C610051C030;
+			remoteGlobalIDString = B5187F582204CEC7000096F6;
 			remoteInfo = Light;
 		};
-		B5A28C6C21FE8C620051C030 /* PBXContainerItemProxy */ = {
+		B5187F7C2204CEC9000096F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5A28C4121FE8C610051C030 /* Project object */;
+			containerPortal = B5187F512204CEC7000096F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5A28C4821FE8C610051C030;
+			remoteGlobalIDString = B5187F582204CEC7000096F6;
 			remoteInfo = Light;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5A28C4921FE8C610051C030 /* Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Light.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5A28C4C21FE8C610051C030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5A28C4E21FE8C610051C030 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5A28C5121FE8C610051C030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B5A28C5421FE8C610051C030 /* Light.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Light.xcdatamodel; sourceTree = "<group>"; };
-		B5A28C5621FE8C620051C030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5A28C5921FE8C620051C030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B5A28C5B21FE8C620051C030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5A28C6021FE8C620051C030 /* LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5A28C6421FE8C620051C030 /* LightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTests.swift; sourceTree = "<group>"; };
-		B5A28C6621FE8C620051C030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5A28C6B21FE8C620051C030 /* LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5A28C6F21FE8C620051C030 /* LightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightUITests.swift; sourceTree = "<group>"; };
-		B5A28C7121FE8C620051C030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5187F592204CEC7000096F6 /* Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Light.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5187F5C2204CEC7000096F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5187F5E2204CEC7000096F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5187F612204CEC7000096F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5187F642204CEC7000096F6 /* Light.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Light.xcdatamodel; sourceTree = "<group>"; };
+		B5187F662204CEC9000096F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5187F692204CEC9000096F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5187F6B2204CEC9000096F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5187F702204CEC9000096F6 /* LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5187F742204CEC9000096F6 /* LightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTests.swift; sourceTree = "<group>"; };
+		B5187F762204CEC9000096F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5187F7B2204CEC9000096F6 /* LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5187F7F2204CEC9000096F6 /* LightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightUITests.swift; sourceTree = "<group>"; };
+		B5187F812204CEC9000096F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5A28C4621FE8C610051C030 /* Frameworks */ = {
+		B5187F562204CEC7000096F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5A28C5D21FE8C620051C030 /* Frameworks */ = {
+		B5187F6D2204CEC9000096F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5A28C6821FE8C620051C030 /* Frameworks */ = {
+		B5187F782204CEC9000096F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5A28C4021FE8C610051C030 = {
+		B5187F502204CEC7000096F6 = {
 			isa = PBXGroup;
 			children = (
-				B5A28C4B21FE8C610051C030 /* Light */,
-				B5A28C6321FE8C620051C030 /* LightTests */,
-				B5A28C6E21FE8C620051C030 /* LightUITests */,
-				B5A28C4A21FE8C610051C030 /* Products */,
+				B5187F5B2204CEC7000096F6 /* Light */,
+				B5187F732204CEC9000096F6 /* LightTests */,
+				B5187F7E2204CEC9000096F6 /* LightUITests */,
+				B5187F5A2204CEC7000096F6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B5A28C4A21FE8C610051C030 /* Products */ = {
+		B5187F5A2204CEC7000096F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5A28C4921FE8C610051C030 /* Light.app */,
-				B5A28C6021FE8C620051C030 /* LightTests.xctest */,
-				B5A28C6B21FE8C620051C030 /* LightUITests.xctest */,
+				B5187F592204CEC7000096F6 /* Light.app */,
+				B5187F702204CEC9000096F6 /* LightTests.xctest */,
+				B5187F7B2204CEC9000096F6 /* LightUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5A28C4B21FE8C610051C030 /* Light */ = {
+		B5187F5B2204CEC7000096F6 /* Light */ = {
 			isa = PBXGroup;
 			children = (
-				B5A28C4C21FE8C610051C030 /* AppDelegate.swift */,
-				B5A28C4E21FE8C610051C030 /* ViewController.swift */,
-				B5A28C5021FE8C610051C030 /* Main.storyboard */,
-				B5A28C5621FE8C620051C030 /* Assets.xcassets */,
-				B5A28C5821FE8C620051C030 /* LaunchScreen.storyboard */,
-				B5A28C5B21FE8C620051C030 /* Info.plist */,
-				B5A28C5321FE8C610051C030 /* Light.xcdatamodeld */,
+				B5187F5C2204CEC7000096F6 /* AppDelegate.swift */,
+				B5187F5E2204CEC7000096F6 /* ViewController.swift */,
+				B5187F602204CEC7000096F6 /* Main.storyboard */,
+				B5187F662204CEC9000096F6 /* Assets.xcassets */,
+				B5187F682204CEC9000096F6 /* LaunchScreen.storyboard */,
+				B5187F6B2204CEC9000096F6 /* Info.plist */,
+				B5187F632204CEC7000096F6 /* Light.xcdatamodeld */,
 			);
 			path = Light;
 			sourceTree = "<group>";
 		};
-		B5A28C6321FE8C620051C030 /* LightTests */ = {
+		B5187F732204CEC9000096F6 /* LightTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5A28C6421FE8C620051C030 /* LightTests.swift */,
-				B5A28C6621FE8C620051C030 /* Info.plist */,
+				B5187F742204CEC9000096F6 /* LightTests.swift */,
+				B5187F762204CEC9000096F6 /* Info.plist */,
 			);
 			path = LightTests;
 			sourceTree = "<group>";
 		};
-		B5A28C6E21FE8C620051C030 /* LightUITests */ = {
+		B5187F7E2204CEC9000096F6 /* LightUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B5A28C6F21FE8C620051C030 /* LightUITests.swift */,
-				B5A28C7121FE8C620051C030 /* Info.plist */,
+				B5187F7F2204CEC9000096F6 /* LightUITests.swift */,
+				B5187F812204CEC9000096F6 /* Info.plist */,
 			);
 			path = LightUITests;
 			sourceTree = "<group>";
@@ -131,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5A28C4821FE8C610051C030 /* Light */ = {
+		B5187F582204CEC7000096F6 /* Light */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5A28C7421FE8C620051C030 /* Build configuration list for PBXNativeTarget "Light" */;
+			buildConfigurationList = B5187F842204CEC9000096F6 /* Build configuration list for PBXNativeTarget "Light" */;
 			buildPhases = (
-				B5A28C4521FE8C610051C030 /* Sources */,
-				B5A28C4621FE8C610051C030 /* Frameworks */,
-				B5A28C4721FE8C610051C030 /* Resources */,
+				B5187F552204CEC7000096F6 /* Sources */,
+				B5187F562204CEC7000096F6 /* Frameworks */,
+				B5187F572204CEC7000096F6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,107 +145,107 @@
 			);
 			name = Light;
 			productName = Light;
-			productReference = B5A28C4921FE8C610051C030 /* Light.app */;
+			productReference = B5187F592204CEC7000096F6 /* Light.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5A28C5F21FE8C620051C030 /* LightTests */ = {
+		B5187F6F2204CEC9000096F6 /* LightTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5A28C7721FE8C620051C030 /* Build configuration list for PBXNativeTarget "LightTests" */;
+			buildConfigurationList = B5187F872204CEC9000096F6 /* Build configuration list for PBXNativeTarget "LightTests" */;
 			buildPhases = (
-				B5A28C5C21FE8C620051C030 /* Sources */,
-				B5A28C5D21FE8C620051C030 /* Frameworks */,
-				B5A28C5E21FE8C620051C030 /* Resources */,
+				B5187F6C2204CEC9000096F6 /* Sources */,
+				B5187F6D2204CEC9000096F6 /* Frameworks */,
+				B5187F6E2204CEC9000096F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5A28C6221FE8C620051C030 /* PBXTargetDependency */,
+				B5187F722204CEC9000096F6 /* PBXTargetDependency */,
 			);
 			name = LightTests;
 			productName = LightTests;
-			productReference = B5A28C6021FE8C620051C030 /* LightTests.xctest */;
+			productReference = B5187F702204CEC9000096F6 /* LightTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5A28C6A21FE8C620051C030 /* LightUITests */ = {
+		B5187F7A2204CEC9000096F6 /* LightUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5A28C7A21FE8C620051C030 /* Build configuration list for PBXNativeTarget "LightUITests" */;
+			buildConfigurationList = B5187F8A2204CEC9000096F6 /* Build configuration list for PBXNativeTarget "LightUITests" */;
 			buildPhases = (
-				B5A28C6721FE8C620051C030 /* Sources */,
-				B5A28C6821FE8C620051C030 /* Frameworks */,
-				B5A28C6921FE8C620051C030 /* Resources */,
+				B5187F772204CEC9000096F6 /* Sources */,
+				B5187F782204CEC9000096F6 /* Frameworks */,
+				B5187F792204CEC9000096F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5A28C6D21FE8C620051C030 /* PBXTargetDependency */,
+				B5187F7D2204CEC9000096F6 /* PBXTargetDependency */,
 			);
 			name = LightUITests;
 			productName = LightUITests;
-			productReference = B5A28C6B21FE8C620051C030 /* LightUITests.xctest */;
+			productReference = B5187F7B2204CEC9000096F6 /* LightUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B5A28C4121FE8C610051C030 /* Project object */ = {
+		B5187F512204CEC7000096F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = WellMadeInnovations;
 				TargetAttributes = {
-					B5A28C4821FE8C610051C030 = {
+					B5187F582204CEC7000096F6 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					B5A28C5F21FE8C620051C030 = {
+					B5187F6F2204CEC9000096F6 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = B5A28C4821FE8C610051C030;
+						TestTargetID = B5187F582204CEC7000096F6;
 					};
-					B5A28C6A21FE8C620051C030 = {
+					B5187F7A2204CEC9000096F6 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = B5A28C4821FE8C610051C030;
+						TestTargetID = B5187F582204CEC7000096F6;
 					};
 				};
 			};
-			buildConfigurationList = B5A28C4421FE8C610051C030 /* Build configuration list for PBXProject "Light" */;
-			compatibilityVersion = "Xcode 10.0";
+			buildConfigurationList = B5187F542204CEC7000096F6 /* Build configuration list for PBXProject "Light" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B5A28C4021FE8C610051C030;
-			productRefGroup = B5A28C4A21FE8C610051C030 /* Products */;
+			mainGroup = B5187F502204CEC7000096F6;
+			productRefGroup = B5187F5A2204CEC7000096F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5A28C4821FE8C610051C030 /* Light */,
-				B5A28C5F21FE8C620051C030 /* LightTests */,
-				B5A28C6A21FE8C620051C030 /* LightUITests */,
+				B5187F582204CEC7000096F6 /* Light */,
+				B5187F6F2204CEC9000096F6 /* LightTests */,
+				B5187F7A2204CEC9000096F6 /* LightUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5A28C4721FE8C610051C030 /* Resources */ = {
+		B5187F572204CEC7000096F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A28C5A21FE8C620051C030 /* LaunchScreen.storyboard in Resources */,
-				B5A28C5721FE8C620051C030 /* Assets.xcassets in Resources */,
-				B5A28C5221FE8C610051C030 /* Main.storyboard in Resources */,
+				B5187F6A2204CEC9000096F6 /* LaunchScreen.storyboard in Resources */,
+				B5187F672204CEC9000096F6 /* Assets.xcassets in Resources */,
+				B5187F622204CEC7000096F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5A28C5E21FE8C620051C030 /* Resources */ = {
+		B5187F6E2204CEC9000096F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5A28C6921FE8C620051C030 /* Resources */ = {
+		B5187F792204CEC9000096F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5A28C4521FE8C610051C030 /* Sources */ = {
+		B5187F552204CEC7000096F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A28C5521FE8C610051C030 /* Light.xcdatamodeld in Sources */,
-				B5A28C4F21FE8C610051C030 /* ViewController.swift in Sources */,
-				B5A28C4D21FE8C610051C030 /* AppDelegate.swift in Sources */,
+				B5187F652204CEC7000096F6 /* Light.xcdatamodeld in Sources */,
+				B5187F5F2204CEC7000096F6 /* ViewController.swift in Sources */,
+				B5187F5D2204CEC7000096F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5A28C5C21FE8C620051C030 /* Sources */ = {
+		B5187F6C2204CEC9000096F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A28C6521FE8C620051C030 /* LightTests.swift in Sources */,
+				B5187F752204CEC9000096F6 /* LightTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5A28C6721FE8C620051C030 /* Sources */ = {
+		B5187F772204CEC9000096F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A28C7021FE8C620051C030 /* LightUITests.swift in Sources */,
+				B5187F802204CEC9000096F6 /* LightUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5A28C6221FE8C620051C030 /* PBXTargetDependency */ = {
+		B5187F722204CEC9000096F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5A28C4821FE8C610051C030 /* Light */;
-			targetProxy = B5A28C6121FE8C620051C030 /* PBXContainerItemProxy */;
+			target = B5187F582204CEC7000096F6 /* Light */;
+			targetProxy = B5187F712204CEC9000096F6 /* PBXContainerItemProxy */;
 		};
-		B5A28C6D21FE8C620051C030 /* PBXTargetDependency */ = {
+		B5187F7D2204CEC9000096F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5A28C4821FE8C610051C030 /* Light */;
-			targetProxy = B5A28C6C21FE8C620051C030 /* PBXContainerItemProxy */;
+			target = B5187F582204CEC7000096F6 /* Light */;
+			targetProxy = B5187F7C2204CEC9000096F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5A28C5021FE8C610051C030 /* Main.storyboard */ = {
+		B5187F602204CEC7000096F6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B5A28C5121FE8C610051C030 /* Base */,
+				B5187F612204CEC7000096F6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B5A28C5821FE8C620051C030 /* LaunchScreen.storyboard */ = {
+		B5187F682204CEC9000096F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B5A28C5921FE8C620051C030 /* Base */,
+				B5187F692204CEC9000096F6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B5A28C7221FE8C620051C030 /* Debug */ = {
+		B5187F822204CEC9000096F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		B5A28C7321FE8C620051C030 /* Release */ = {
+		B5187F832204CEC9000096F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +432,7 @@
 			};
 			name = Release;
 		};
-		B5A28C7521FE8C620051C030 /* Debug */ = {
+		B5187F852204CEC9000096F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -450,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		B5A28C7621FE8C620051C030 /* Release */ = {
+		B5187F862204CEC9000096F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,7 +468,7 @@
 			};
 			name = Release;
 		};
-		B5A28C7821FE8C620051C030 /* Debug */ = {
+		B5187F882204CEC9000096F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -489,7 +489,7 @@
 			};
 			name = Debug;
 		};
-		B5A28C7921FE8C620051C030 /* Release */ = {
+		B5187F892204CEC9000096F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +510,7 @@
 			};
 			name = Release;
 		};
-		B5A28C7B21FE8C620051C030 /* Debug */ = {
+		B5187F8B2204CEC9000096F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		B5A28C7C21FE8C620051C030 /* Release */ = {
+		B5187F8C2204CEC9000096F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -553,38 +553,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5A28C4421FE8C610051C030 /* Build configuration list for PBXProject "Light" */ = {
+		B5187F542204CEC7000096F6 /* Build configuration list for PBXProject "Light" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5A28C7221FE8C620051C030 /* Debug */,
-				B5A28C7321FE8C620051C030 /* Release */,
+				B5187F822204CEC9000096F6 /* Debug */,
+				B5187F832204CEC9000096F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5A28C7421FE8C620051C030 /* Build configuration list for PBXNativeTarget "Light" */ = {
+		B5187F842204CEC9000096F6 /* Build configuration list for PBXNativeTarget "Light" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5A28C7521FE8C620051C030 /* Debug */,
-				B5A28C7621FE8C620051C030 /* Release */,
+				B5187F852204CEC9000096F6 /* Debug */,
+				B5187F862204CEC9000096F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5A28C7721FE8C620051C030 /* Build configuration list for PBXNativeTarget "LightTests" */ = {
+		B5187F872204CEC9000096F6 /* Build configuration list for PBXNativeTarget "LightTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5A28C7821FE8C620051C030 /* Debug */,
-				B5A28C7921FE8C620051C030 /* Release */,
+				B5187F882204CEC9000096F6 /* Debug */,
+				B5187F892204CEC9000096F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5A28C7A21FE8C620051C030 /* Build configuration list for PBXNativeTarget "LightUITests" */ = {
+		B5187F8A2204CEC9000096F6 /* Build configuration list for PBXNativeTarget "LightUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5A28C7B21FE8C620051C030 /* Debug */,
-				B5A28C7C21FE8C620051C030 /* Release */,
+				B5187F8B2204CEC9000096F6 /* Debug */,
+				B5187F8C2204CEC9000096F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -592,17 +592,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B5A28C5321FE8C610051C030 /* Light.xcdatamodeld */ = {
+		B5187F632204CEC7000096F6 /* Light.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B5A28C5421FE8C610051C030 /* Light.xcdatamodel */,
+				B5187F642204CEC7000096F6 /* Light.xcdatamodel */,
 			);
-			currentVersion = B5A28C5421FE8C610051C030 /* Light.xcdatamodel */;
+			currentVersion = B5187F642204CEC7000096F6 /* Light.xcdatamodel */;
 			path = Light.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = B5A28C4121FE8C610051C030 /* Project object */;
+	rootObject = B5187F512204CEC7000096F6 /* Project object */;
 }
