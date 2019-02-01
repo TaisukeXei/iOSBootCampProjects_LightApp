@@ -11,12 +11,8 @@ import UIKit
 var lightOn = true
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var myButton: UIButton!
     
     override func viewDidLoad() {
-        
-        myButton.setTitleColor(.yellow, for: .normal)
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -32,13 +28,9 @@ class ViewController: UIViewController {
         if lightOn {
             print("Light is on!")
             view.backgroundColor = .white
-            myButton.setTitle("OFF", for: .normal)
-            myButton.setTitleColor(.red, for: .normal)
         } else {
             print("Light is off!")
             view.backgroundColor = .black
-            myButton.setTitle("ON", for: .normal)
-            myButton.setTitleColor(.green, for: .normal)
         }
     }
     
