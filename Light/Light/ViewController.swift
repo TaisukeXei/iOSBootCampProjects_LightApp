@@ -8,12 +8,13 @@
 
 import UIKit
 
-var lightOn = true
-
 class ViewController: UIViewController {
+    
+    var lightOn = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateUI()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -25,13 +26,7 @@ class ViewController: UIViewController {
     
     func updateUI() {
         
-        if lightOn {
-            print("Light is on!")
-            view.backgroundColor = .white
-        } else {
-            print("Light is off!")
-            view.backgroundColor = .black
-        }
+        view.backgroundColor = lightOn ? .white : .black
     }
     
     override func didReceiveMemoryWarning() {
